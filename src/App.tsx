@@ -1,10 +1,13 @@
+import AppRouter from './AppRouter';
+import Header from './components/common/Header';
 
-function App () {
+function App() {
   return (
-    <div>
-      <h1>Hello Fvalley!</h1>
-    </div>
-  )
+    <>
+      <Header />
+      <AppRouter />
+    </>
+  );
 }
 
-export default App
+export default App;
